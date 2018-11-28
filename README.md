@@ -20,3 +20,19 @@ Stefan Profanter, Ayhun Tekat, Kirill Dorofeev and Markus Rickert. OPC UA versus
     address = {Melbourne, Australia}
 }
 ```
+
+## Building
+
+To build with Eprosima FastRTPS, make sure that you are calling CMake with `-DTHIRDPARTY=ON`:
+
+```sh
+cd middleware_evaluation
+git submodule update --init --recursive
+mkdir build && cd build
+cmake -DTHIRDPARTY=ON ..
+make -j
+```
+
+## Running the tests
+
+Check the corresponding subfolders for each protocol to see how to start the tests

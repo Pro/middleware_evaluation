@@ -1,0 +1,9 @@
+[submodule "libs/open62541"]
+	path = libs/open62541
+	url = https://github.com/open62541/open62541
+[submodule "libs/paho.mqtt.c"]
+	path = libs/paho.mqtt.c
+	url = https://github.com/eclipse/paho.mqtt.c
+[submodule "libs/fastrtps"]
+	path = libs/fastrtps
+	url = https://github.com/eProsima/Fast-RTPS

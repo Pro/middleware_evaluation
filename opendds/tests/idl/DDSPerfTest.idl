@@ -1,0 +1,24 @@
+#ifndef DDSPERFTEST_IDL
+#define DDSPERFTEST_IDL
+
+module DDSPerfTest {
+
+        typedef sequence<octet> BufferType;
+
+#pragma DCPS_DATA_TYPE "DDSPerfTest::PubMessage"
+
+        struct PubMessage
+        {
+            BufferType buffer;
+        };
+
+#pragma DCPS_DATA_TYPE "DDSPerfTest::AckMessage"
+
+        struct AckMessage {
+            long size;
+        };
+
+};
+
+
+#endif /* DDSPERFTEST_IDL */

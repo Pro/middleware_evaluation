@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/fastrtps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/fastrtps/thirdparty/asio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/fastrtps/thirdparty/fastcdr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/fastrtps/thirdparty/tinyxml2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/open62541" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/libs/paho.mqtt.c" vcs="Git" />
+  </component>
+</project>
