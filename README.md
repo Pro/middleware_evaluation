@@ -17,5 +17,6 @@ Stefan Profanter, Ayhun Tekat, Kirill Dorofeev and Markus Rickert. OPC UA versus
     booktitle = {Proceedings of the {IEEE} International Conference on Industrial Technology ({ICIT})},
     year = {2018},
     month = feb,
-    address = {Melbourne, Australia},
+    address = {Melbourne, Australia}
+}
 ```
